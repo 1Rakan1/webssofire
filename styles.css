@@ -321,4 +321,8 @@ body {
     padding-bottom: 0.5rem;
 }
 
-.users-grid, .
+.users-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
